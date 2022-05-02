@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+}
+
+app-result-box {
+    flex: 1;
+}

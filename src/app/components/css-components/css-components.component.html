@@ -1,0 +1,11 @@
+<div class="header"><span>UI Components</span></div>
+<ul>
+    <li class="side-panel">
+        <span (click)="activeComponent='home'" [ngClass]="{'active-component': activeComponent === 'home'}">Home</span>
+        <span (click)="activeComponent='loaders'">Loaders</span>
+    </li>
+</ul>
+<div class="content">
+    <app-css-components-home *ngIf="activeComponent === 'home'"></app-css-components-home>
+    <app-component-loaders *ngIf="activeComponent === 'loaders'"></app-component-loaders>
+</div>
