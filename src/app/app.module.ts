@@ -8,8 +8,8 @@ import { ResponsivePageComponent } from './components/responsive-page/responsive
 import { ResultBoxComponent } from './components/document-compare/result-box/result-box.component';
 import { CssComponentsComponent } from './components/css-components/css-components.component';
 import { LoadersComponent } from './components/css-components/loaders/loaders.component';
-import { HomeComponent } from './components/css-components/home/home.component';
 import { SpinnerComponent } from './components/css-components/loaders/spinner/spinner.component';
+import { BlogsComponent } from './blogs/blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,8 @@ import { SpinnerComponent } from './components/css-components/loaders/spinner/sp
     ResultBoxComponent,
     CssComponentsComponent,
     LoadersComponent,
-    HomeComponent,
     SpinnerComponent,
+    BlogsComponent,
   ],
   imports: [
     BrowserModule,
